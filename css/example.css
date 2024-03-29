@@ -37,7 +37,7 @@ body {
     transform: rotateX(65deg);
     transition: all 1s ease;
 }
-.open .card {
+.flipUp .card {
     transform: rotateX(0deg);
 }
 .card__panel {
