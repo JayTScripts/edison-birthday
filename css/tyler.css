@@ -88,7 +88,7 @@ img{
     max-width: 400px;
     max-height: 600px;
     width: 80vw;
-    height: 120vw;
+    height: auto;
 }
 
 .inside-photo{
