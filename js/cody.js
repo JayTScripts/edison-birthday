@@ -14,6 +14,7 @@ openBtn.onclick = function () {
     open = !open;
     if (!audioPlaying){
       song.play();  
+      song.loop = true;
     } else {
       song.pause();
       song.currentTime = 0;

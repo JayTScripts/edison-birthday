@@ -13,7 +13,8 @@ openBtn.onclick = function () {
     document.body.classList.toggle("open");
     open = !open;
     if (!audioPlaying){
-      song.play();  
+      song.play();
+      song.loop = true;
     } else {
       song.pause();
       song.currentTime = 0;
