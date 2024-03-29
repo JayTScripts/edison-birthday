@@ -73,6 +73,7 @@ body {
 .card__panel--inside-right {
     border-left: none;
     background: rgb(248, 229, 193);
+    font-size: 32px;
     z-index: -1;
 }
 
@@ -89,8 +90,14 @@ img{
     max-width: 400px;
     max-height: 600px;
     width: 80vw;
+    height: auto;
+}
+
+.cover{
+    width: 80vw;
     height: 120vw;
 }
+
 
 .inside-photo{
     transform: rotateY(180deg);
