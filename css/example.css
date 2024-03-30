@@ -26,7 +26,7 @@ body {
 }
  @media (min-width: 768px) {
     .open .card__container {
-      transform: translate(0%, -51%);
+      transform: translate(0%, -50%);
     }
 }
 .card {
