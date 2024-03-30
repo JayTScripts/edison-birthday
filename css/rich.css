@@ -91,3 +91,6 @@ img{
     height: 120vw;
 }
 
+.inside-photo{
+    transform: rotateY(180deg);
+}

@@ -92,3 +92,7 @@ img{
     height: auto;
 }
 
+.inside-photo{
+    transform: rotateY(180deg);
+}
+
