@@ -73,7 +73,7 @@ body {
 .card__panel--inside-right {
     border-left: none;
     background: rgb(248, 229, 193);
-    z-index: -1;
+    z-index: -2;
 }
 
 .hearts{
