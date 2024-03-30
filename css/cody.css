@@ -13,6 +13,9 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.inside-photo{
+    transform: rotateY(180deg);
+}
 
 .card__container {
     cursor: pointer;
@@ -91,6 +94,3 @@ img{
     height: 120vw;
 }
 
-.inside-photo{
-    transform: rotateY(180deg);
-}
